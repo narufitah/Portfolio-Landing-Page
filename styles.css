@@ -1,0 +1,220 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+}
+
+.logo h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-item-group ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-item-group a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* .banner {
+    background-image: url(asset/banner-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-family: "Inter";
+    font-weight: 400;
+} */
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Main Section Styles */
+
+.main-section {
+    padding: 260px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+/* Work Section */
+
+.featured-works {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h1 {
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.project {
+    display: flex;
+    gap: 24px;
+    height: 400px;
+}
+
+.project img {
+    display: block;
+    height:auto;
+    width: 700px;
+    object-fit: cover;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: start;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 300;
+    
+}
+
+.project-description h5, .bold {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.project-description h5 {
+    text-decoration: underline;
+}
+
+.description1 {
+    width: 10%;
+}
+
+.description2 {
+    width: 30%;
+}
+
+.description3 {
+    width: 60%;
+}
+
+/* Services Section */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services-list li {
+    font-size: 70px;
+    font-family: "Inter";
+    font-weight: 300;
+    list-style: none;
+}
+
+.services-list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* About us Section */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.story {
+    width: 50%;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.story h4 {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 12px;
+}
+
+.footer-item-group ul {
+    list-style: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-item-group a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-item-group a:hover {
+    text-decoration: underline;
+}
+
+.copyright h5 {
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
